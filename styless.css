@@ -1,0 +1,94 @@
+box sizing{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    
+}
+.header-wrapper{
+    border: 2px solid black;
+}
+.header{
+    text-align: center;
+    line-height: 0%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+label button{
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+label button:hover{
+    background-color: dimgray;
+
+}
+p{
+    text-transform: capitalize;
+}
+/* main to do list section*/
+
+.hero{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    height: 50vh;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    gap: 10px;
+    border-left: 3px solid red;
+    border-radius: 5px;
+    background-color: rgba(253, 238, 238, 0.993);
+    width: 500px;
+
+}
+.list-text{
+    line-height: 2px;
+    margin: 10px;
+}
+.side{
+    margin: 10px;
+    
+}
+.side button{
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.side button:hover{
+    background-color: darkgray;
+}
+h2{
+    text-transform: capitalize;
+}
