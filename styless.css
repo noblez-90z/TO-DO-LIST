@@ -71,6 +71,10 @@ p{
     width: 500px;
 
 }
+.list.done{
+    background-color: lightgreen;
+    border-left: 3px solid green;
+}
 .list-text{
     line-height: 2px;
     margin: 10px;
@@ -91,4 +95,5 @@ p{
 }
 h2{
     text-transform: capitalize;
+    
 }
